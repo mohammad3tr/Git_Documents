@@ -109,39 +109,43 @@ Document about Git learning
   </tr>
   <tr>
     <td><b></br>git branch </br> git branch {اسم برای شاخه} </br> git branch -d {اسم شاخه} </br> git checkout {اسم شاخه} </br> git checkout -b {اسم برای شاخه </b></td>
-    <td dir=rtl> مشاهده شاخه های موجود </br> ساختن شاخه جدید </br> حذف شاخه مشخص </br> تعویض و رفتن به شاخه خاص </br> ساخت شاخه جدشد و همزمان رفتن به آن </td>
+    <td dir=rtl> مشاهده شاخه های موجود </br> ساختن شاخه جدید </br> حذف شاخه مشخص </br> تعویض و رفتن به شاخه خاص </br> ساخت شاخه جدید و همزمان رفتن به آن </td>
   </tr>
   <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
+    <td><b>git merge {اسم شاخه ای که می خواهیم ادغام کنیم}</b></td>
+    <td dir=rtl> برای ادغام شاخه ها </td>
   </tr>
     <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
-  </tr>
-      <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
-  </tr>
-      <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
+    <td><b>git rm {اسم فایل}</b></td>
+    <td dir=rtl> برای حذف یک فایل از شاخه مربوطه </td>
   </tr>
   <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
+    <td><b>git clone {آدرس گیت هاب}</b></td>
+    <td dir=rtl> برای کپی یا به اصطلاح clone گرفتن از ریپوی خاص در گیت هاب </td>
+  </tr>
+      <tr>
+    <td><b>git push</b></td>
+    <td dir=rtl> برای اعمال تغییرات ایجاد شده در لوکال بر روی گیت هاب یا origin </br> git push origin master(main) </td>
+  </tr>
+  <tr>
+    <td><b>git pull</b></td>
+    <td dir=rtl> برای گرفتن آخرین تغییرات در گیت هاب بر روی clone خود </br> git pull origin master(main) </td>
   </tr>
     <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
+    <td><b>git remote</b></td>
+    <td dir=rtl> git remote add {Repo name} { Address for Repo EX: https://github.com/test-repo} </td>
   </tr>
-      <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
+  <tr>
+    <td><b>git --version</b></td>
+    <td dir=rtl> مشخص شدن ورژن گیت </td>
   </tr>
-      <tr>
-    <td><b></b></td>
-    <td dir=rtl>  </td>
+  <tr>
+    <td><b>git config --global user.name {نام کاربری} </br> git config user.name </b></td>
+    <td dir=rtl> برای تنظیم کردن نام کاربری </br> برای مشخص شدن نام کاربر گیت در حال حاضر </br> آپشن global بدان معنا است که تنظیمات در سراسر سیستم اِعمال خواهد شد</td>
+  </tr>
+  <tr>
+    <td><b>git config --global user.email {آدرس ایمیل} </br> git config user.email </b></td>
+    <td dir=rtl> برای تنظیم کردن آدرس ایمیل </br> برای مشخص شدن آدرس ایمیل گیت در حال حاضر </br> آپشن global بدان معنا است که تنظیمات در سراسر سیستم اِعمال خواهد شد</td>
   </tr>
   <tr>
     <td><b></b></td>
