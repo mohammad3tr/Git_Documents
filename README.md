@@ -18,12 +18,12 @@ Document about Git learning
 
 <table>
   <tr>
-    <th>اصطلاح</th>
-    <th>توضیحات</th>
+    <th><b><i>اصطلاح</i></b></th>
+    <th><b><i>توضیحات</i></b></th>
   </tr>
   <tr>
     <td><b>Repo</b></td>
-    <td dir=rtl>این اصطلاح برگرفته از واژهٔ Repository به معنی «مخزن» یا «منبع» است</td>
+    <td dir=rtl>این اصطلاح برگرفته از واژه Repository به معنی «مخزن» یا «منبع» است</td>
   </tr>
   <tr>
     <td><b>Clone</b></td>
@@ -54,4 +54,56 @@ Document about Git learning
     <td><b>Merge</b></td>
     <td dir=rtl>  همان‌طور که پیش از این توضیح داده شد، چنانچه در یک ریپازیتوی علاوه بر شاخهٔ اصلی شروع به ساخت یک سری شاخهٔ‌ فرعی نماییم،‌ در نهایت نیاز است تا کلیهٔ شاخه‌‌های فرعی با شاخهٔ به اصطلاح مَستر ادغام شوند که به این پروسه «مِرج» گفته می‌شود. </td>
   </tr>
+  <tr>
+    <td><b>Origin</b></td>
+    <td dir=rtl> یک اسمی است که وقتی از یک سایت مثلا github یک چیزی یا پروژه ای را clone می کنیم معمولا اسمش را می گذارند origin </td>
+  </tr>
 </table>
+
+</br><hr /></br>
+<h3 dir=rtl>
+  دستورات رایج در Git:
+</h3>
+
+<table>
+  <tr>
+    <th><b><i>دستورات</i></b></th>
+    <th><b><i>توضیحات</i></b></th>
+  </tr>
+  <tr>
+    <td><b>git init</b></td>
+    <td dir=rtl> کامند init برگرفته از کلمه Initialize به معنی «شروع کردن» است. پس از اجرای موفقیت‌آمیز این کامند،‌ پوشه‌ای تحت عنوان git. ساخته می‌شود </td>
+  </tr>
+  <tr>
+    <td><b>git status</b></td>
+    <td dir=rtl>  </td>
+  </tr>
+    <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+      <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+      <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+      <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+      <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+      <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+      <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+  </table>
