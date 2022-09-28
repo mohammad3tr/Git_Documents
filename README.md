@@ -58,9 +58,13 @@ Document about Git learning
     <td><b>Origin</b></td>
     <td dir=rtl> یک اسمی است که وقتی از یک سایت مثلا github یک چیزی یا پروژه ای را clone می کنیم معمولا اسمش را می گذارند origin </td>
   </tr>
+    <tr>
+    <td><b>Untracked file</b></td>
+    <td dir=rtl> فایل هایی که هنوز stage نشده اند و گیت هیچ history از آن نداره </td>
+  </tr>
 </table>
 
-</br><hr /></br>
+</br>
 <h3 dir=rtl>
   دستورات رایج در Git:
 </h3>
@@ -76,6 +80,39 @@ Document about Git learning
   </tr>
   <tr>
     <td><b>git status</b></td>
+    <td dir=rtl> برای اطلاع از وضعیت ریپو  </td>
+  </tr>
+  <tr>
+    <td><b>git add {اسم فایل} </br> git add -A </br> git add '*.html'</b></td>
+    <td dir=rtl> کلیه کامندهای گیت با دستور git آغاز می‌شوند و برای مرحله اِستیج از دستور add استفاده کرده و فایلی که قصد داریم در هیستوری ذخیره گردد را مینویسیم </td>
+  </tr>
+   <tr>
+    <td><b>git commit -m 'یک توضیح مناسب'</b></td>
+    <td dir=rtl> با استفاده از دستور add تغییرات آمادهٔ ذخیره‌سازی شده‌اند اما این کار هنوز صورت نگرفته است که برای این منظور، با استفاده از دستور commit این کار انجام میدهیم </td>
+  </tr>
+  <tr>
+    <td><b>git log </br> git log --oneline</b></td>
+    <td dir=rtl>برای این که به لیستی کامیت‌هایی که تاکنون انجام داده‌ایم دست یابیم </br> چنانچه تعداد کامیت‌ها زیاد بوده و بخواهیم گزارشی خلاصه دریافت کنیم، می‌توانیم از دستور oneline استفاده نماییم. </br> هر کامیت نیز از یک کد هَش به منظور شناسایی برخوردار است </td>
+  </tr>
+  <tr>
+    <td><b>git diff HEAD </br> git diff --staged</b></td>
+    <td dir=rtl> برای مشاهده اینکه در حال حاضر چه تغییراتی صورت گرفته است </td>
+  </tr>
+      <tr>
+    <td><b>git reset {اسم فایل} </br> git reset {بخشی از کد هش کامیت} </br></b></td>
+    <td dir=rtl> برای خارج کردن یک فایل از حالت استیج </br> برای رفتن به یک کامیت خاص </br> در این حالت می توان از آپشن --hard نیز استفاده کرد </td>
+  </tr>
+  </tr>
+      <tr>
+    <td><b>git checkout -- {اسم فایل} </b></td>
+    <td dir=rtl> برای در نظر نگرفتن تغییرات انجام شده بر روی فایل </td>
+  </tr>
+  <tr>
+    <td><b></br>git branch </br> git branch {اسم برای شاخه} </br> git branch -d {اسم شاخه} </br> git checkout {اسم شاخه} </br> git checkout -b {اسم برای شاخه </b></td>
+    <td dir=rtl> مشاهده شاخه های موجود </br> ساختن شاخه جدید </br> حذف شاخه مشخص </br> تعویض و رفتن به شاخه خاص </br> ساخت شاخه جدشد و همزمان رفتن به آن </td>
+  </tr>
+  <tr>
+    <td><b></b></td>
     <td dir=rtl>  </td>
   </tr>
     <tr>
@@ -90,7 +127,11 @@ Document about Git learning
     <td><b></b></td>
     <td dir=rtl>  </td>
   </tr>
-      <tr>
+  <tr>
+    <td><b></b></td>
+    <td dir=rtl>  </td>
+  </tr>
+    <tr>
     <td><b></b></td>
     <td dir=rtl>  </td>
   </tr>
@@ -102,7 +143,7 @@ Document about Git learning
     <td><b></b></td>
     <td dir=rtl>  </td>
   </tr>
-      <tr>
+  <tr>
     <td><b></b></td>
     <td dir=rtl>  </td>
   </tr>
