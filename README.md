@@ -1,6 +1,10 @@
 # Git_Document
 Document about Git learning
 
+<p align="center">
+ <img alt="Git-Logo" src="image/git.png">
+</p>
+
 <p dir=rtl>
   گیت، یک سیستم کنترل نسخه منبع آزاد و رایگان است که در ابتدا Linus Torvalds  در سال 2005 ایجاد کرد.
 </p>
@@ -150,5 +154,29 @@ Document about Git learning
   <tr>
     <td><b></b></td>
     <td dir=rtl>  </td>
+  </tr>
+  </table>
+
+</br>
+<h3 dir=rtl>
+  سایر دستورات در Git:
+</h3>
+
+<table>
+  <tr>
+    <th><b><i>دستورات</i></b></th>
+    <th><b><i>توضیحات</i></b></th>
+  </tr>
+  <tr>
+    <td><b>git bisect</b></td>
+    <td dir=rtl> کامند init برگرفته از کلمه Initialize به معنی «شروع کردن» است. پس از اجرای موفقیت‌آمیز این کامند،‌ پوشه‌ای تحت عنوان git. ساخته می‌شود </td>
+  </tr>
+  <tr>
+    <td><b>git stash</b></td>
+    <td dir=rtl> برای اطلاع از وضعیت ریپو  </td>
+  </tr>
+  <tr>
+    <td><b>git rebase</b></td>
+    <td dir=rtl> برای اطلاع از وضعیت ریپو  </td>
   </tr>
   </table>
