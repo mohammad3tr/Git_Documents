@@ -172,6 +172,10 @@ Document about Git learning
     <th><b><i>توضیحات</i></b></th>
   </tr>
   <tr>
+    <td></br><b>git tag</br>git tag -a V2.0 -m 'کامنت'</br>git tag -l "v*"</br>git show V2.0</br>git push origin V2.0</br>git push origin --tags</br>git checkout V2.0</b></br></td>
+    <td dir=rtl>مشاهده تگ ها</br>اضافه کردن تگ با کامنت مناسب</br>دیدن همه تگ ها که با حرف v شروع میشن</br>دیدن جزییات برای لاگی که تگ V2.0 دارد</br>اعمال تغییرات بر روی گیت هاب با تگ بجای شکاره کامیت</br>اعمال تگ های ایجاد شده به گیت هاب</br>رفتن به تگ V2.0</td>
+  </tr>
+  <tr>
     <td><b>git bisect</b></td>
     <td dir=rtl> کامند init برگرفته از کلمه Initialize به معنی «شروع کردن» است. پس از اجرای موفقیت‌آمیز این کامند،‌ پوشه‌ای تحت عنوان git. ساخته می‌شود </td>
   </tr>
