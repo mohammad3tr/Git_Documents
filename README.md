@@ -136,8 +136,8 @@ Document about Git learning
     <td dir=rtl> برای گرفتن آخرین تغییرات در گیت هاب بر روی clone خود </br> git pull origin master(main) </td>
   </tr>
   <tr>
-    <td><b>git remote</b></td>
-    <td dir=rtl> git remote add {Repo name} { Address for Repo EX: https://github.com/test-repo} </td>
+    <td><b>git remote</b></br><b>git remote -v</b></td>
+    <td dir=rtl> git remote add {Repo name} { Address for Repo EX: https://github.com/test-repo} </br> git push -u origin master</td>
   </tr>
   <tr>
     <td><b>git show</b></td>
