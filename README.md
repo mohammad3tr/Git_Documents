@@ -141,7 +141,7 @@ Document about Git learning
   </tr>
   <tr>
     <td><b>git show</b></td>
-    <td dir=rtl> {شناسه commit مربوطه} git show </td>
+    <td dir=rtl> {شناسه commit مربوطه} git show </br> جزییات تغییرات در آن کامیت را نشان می دهند</td>
   </tr>
   <tr>
     <td><b>git --version</b></td>
