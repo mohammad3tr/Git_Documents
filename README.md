@@ -184,8 +184,12 @@ Document about Git learning
     <td dir=rtl>برای پیدا کردن جایی که نسخه از کد درست کار کرده.</td>
   </tr>
   <tr>
-    <td><b>git stash</b></td>
-    <td dir=rtl> برای اطلاع از وضعیت ریپو  </td>
+    <td><b>git stash</br>git stash list</br>git stash save {یک پیغام}</br>git stash drop {stash اسم}</br>git stash show -p {stash اسم}</br>git stash apply {stash اسم}</br>git stash pop {stash اسم}</b></td>
+    <td dir=rtl>برای ذخیره تغییرات در یک جای دیگر و تغییر شاخه از این دستور استفاده می شود</br>لیست تغییرات ذخیره شده با اسم آنها</br>برای ذخیره تغییرات با یک پیغام خاص</br>برای حذف یک stash</br>برای مشاهده جزییات یک stash</br> برای اعمال یک stash</br>برای اعمال یک stash با حذف آن ازقسمت ذخیره ها</td>
+  </tr>
+  <tr>
+    <td><b>.gitignore</b></td>
+    <td dir=rtl>یک فایل در پروژه برای کانفیک فایلهایی که گیت آن ها را در نظر نگیرد. اسم آن فایل ها در ایجا آورده می شود</td>
   </tr>
   <tr>
     <td><b>git rebase</b></td>
